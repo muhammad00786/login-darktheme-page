@@ -1,0 +1,76 @@
+:root {
+    --main-color: #2b64ff;
+    --back-color: #121212;
+    --border-color: rgba(36, 101, 237, 0.05);
+    --font-color: #FFFFFF;
+    --container-color: rgba(255, 255, 255, 0.002);
+    --input-color: gray;
+    --hover-color: #507fff;
+    --semi-color: #3369ff27;
+}
+body {
+    font-family: 'Poppins';
+    background-color: var(--back-color);
+    color: var(--font-color);
+}
+.container {
+    border: var(--border-color) solid 1px;
+    background-color: var(--container-color);
+    height: 550px;
+    width: 450px;
+    margin: 10% auto;
+    text-align: center;
+}
+.heading {
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.description {
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+.textbox {
+    margin-top: 12px;
+    background-color: var(--container-color);
+    border: var(--border-color) solid 1px;
+    width: 350px;
+    color: var(--input-color);
+    padding: 10px 0px 10px 20px;
+    font-size: 14px;
+    transition: 1s;
+}
+.textbox:focus {
+    border-color: var(--hover-color);
+}
+.login {
+    margin-top: 17px;
+    background-color: var(--main-color);
+    border: var(--border-color) solid 1px;
+    width: 370px;
+    border-radius: 7px;
+    color: var(--font-color);
+    padding: 10px 0px 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    transition: background 1s;
+}
+.login:hover {
+    background-color: var(--hover-color);
+}
+.register {
+    margin-top: 20px;
+    background-color: transparent;
+    border-width: 0px;
+    width: 370px;
+    border-radius: 7px;
+    color: var(--main-color);
+    padding: 10px 0px 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    transition: background 0.8s;
+}
+.register:hover {
+    transition: 1s;
+    background-color: var(--semi-color);
+}
