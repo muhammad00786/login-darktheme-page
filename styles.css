@@ -74,3 +74,21 @@ body {
     transition: 1s;
     background-color: var(--semi-color);
 }
+@media (max-width: 600px) {
+  .heading {
+    font-size: 20px;
+  }
+  .textbox {
+    width: 300px;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
