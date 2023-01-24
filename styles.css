@@ -54,10 +54,10 @@ body {
     font-size: 14px;
     text-align: center;
     transition: background 1s;
+    cursor: pointer;
 }
 .login:hover {
     background-color: var(--hover-color);
-    cursor: pointer;
 }
 .register {
     margin-top: 20px;
@@ -70,11 +70,11 @@ body {
     font-size: 14px;
     text-align: center;
     transition: background 0.8s;
+    cursor: pointer;
 }
 .register:hover {
     transition: 1s;
     background-color: var(--semi-color);
-    cursor: pointer;
 }
 @media (max-width: 600px) {
   .heading {
@@ -82,10 +82,5 @@ body {
   }
   .textbox {
     width: 300px;
-  }
-}
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column;
   }
 }
