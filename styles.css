@@ -77,10 +77,19 @@ body {
     background-color: var(--semi-color);
 }
 @media (max-width: 600px) {
+  .container {
+    width: 320px;
+  }
   .heading {
     font-size: 20px;
   }
   .textbox {
+    width: 250px;
+  }
+  .login {
+    width: 300px;
+  }
+  .register {
     width: 300px;
   }
 }
